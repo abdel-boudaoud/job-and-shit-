@@ -4,7 +4,7 @@ const fs = require("fs");
 
 const cheerio = require("cheerio");
 
-data = fs.readFileSync("./sites.csv", "utf-8");
+data = fs.readFileSync("./Alabama CPA - sites only.csv", "utf-8");
 
 data.split("\r\n").forEach((site) => {
   axios
@@ -22,7 +22,7 @@ data.split("\r\n").forEach((site) => {
         .trim()
         .replace(/\s/g, "")}\n`;
       if (email.length > 2) {
-        fs.appendFile("test", email, (err) => {
+        fs.appendFile("emails", email, (err) => {
           if (err) {
             return err;
           }
