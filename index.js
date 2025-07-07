@@ -14,7 +14,7 @@ let cleanEmail = (email) => {
 };
 
 
-let file = `./non profit  - sites only.csv`;
+let file = `./files/non profit  - sites only.csv`;
 let data = fs.readFileSync(file, "utf-8");
 
 
