@@ -36,7 +36,7 @@ data.split("\r\n").forEach((site) => {
         .text()
         .trim()
         .replace(/\s/g, "")}\n`;
-      if (email.length > 2 && email.includes("@")) {
+      if (email.length > 2 && email.length < 40 && email.includes("@")) {
         fs.appendFile("emailsAl", cleanEmail(email), (err) => {
           if (err) {
             return err;
