@@ -2,8 +2,8 @@ const axios = require("axios");
 const fs = require("fs");
 const cheerio = require("cheerio");
 
-
-let cleanEmail = (email) => {
+const emailUtil = require("./emailUtil.js");
+let cleanEmail = (emai) => {
   let tlds = [".org", ".com", ".net", ".cpa", ".pro"];
 
   for (let i = 0; i < tlds.length; i++) {
@@ -13,11 +13,8 @@ let cleanEmail = (email) => {
   }
 };
 
-
 let file = `./files/non profit  - sites only.csv`;
 let data = fs.readFileSync(file, "utf-8");
-
-
 
 data.split("\r\n").forEach((site) => {
   axios
@@ -50,4 +47,3 @@ data.split("\r\n").forEach((site) => {
       return 0;
     });
 });
-
