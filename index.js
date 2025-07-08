@@ -1,9 +1,12 @@
 const axios = require("axios");
+
 const fs = require("fs");
+
 const cheerio = require("cheerio");
 
 const emailUtil = require("./emailUtil.js");
-let cleanEmail = (emai) => {
+
+let cleanEmail = (email) => {
   let tlds = [".org", ".com", ".net", ".cpa", ".pro"];
 
   for (let i = 0; i < tlds.length; i++) {
@@ -14,6 +17,7 @@ let cleanEmail = (emai) => {
 };
 
 let file = `./files/non profit  - sites only.csv`;
+
 let data = fs.readFileSync(file, "utf-8");
 
 data.split("\r\n").forEach((site) => {
@@ -27,20 +31,24 @@ data.split("\r\n").forEach((site) => {
     .then((data) => {
       let rawHtml = data.data;
       const $ = cheerio.load(rawHtml);
-      console.log(site);
 
       let email = `${$('a[href^="mailto:"]')
         .text()
         .trim()
         .replace(/\s/g, "")}\n`;
+
       if (email.length > 2 && email.length < 40 && email.includes("@")) {
-        fs.appendFile("emailsAl", cleanEmail(email), (err) => {
+        fs.appendFile("emailsTEST", cleanEmail(email), (err) => {
           if (err) {
             return err;
           }
         });
-      } else {
-        return 0;
+      } else if (!cleanEmail(email)) {
+        fs.appendFile("sitesWOemails", `${site}\n`, (err) => {
+          if (err) {
+            return err;
+          }
+        });
       }
     })
     .catch((err) => {
