@@ -1,0 +1,322 @@
+<html>
+
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+        html {
+            width: 100%;
+            height: 100%;
+            font-family: Arial;
+        }
+
+        body {
+            color: #000;
+            font-weight: normal;
+        }
+
+        div {
+            font-size: 14px;
+        }
+
+        table {
+            width: 660px;
+            font-size: 12px;
+        }
+
+        .msHeaderText {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .sectionHeader {
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        .infoText {
+            width: 20%;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .paragraphText {
+            margin-left: 0px;
+            text-align: justified;
+        }
+
+        .tableOutline {
+            border: 1px solid black;
+        }
+
+        .tableHeader {
+            background-color: #A2ABB0;
+        }
+
+        .financialInfoHeader {
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        hr {
+            border-color: #606365;
+        }
+
+        .k-block>.k-header,
+        .k-window-titlebar {
+            position: relative !important;
+            height: 34px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin-top:0px;">
+        <table style="width:100%;">
+            <tr>
+                <td style="width:100%;text-align:right;"><a href="#"
+                        onclick="ShowDetailNewWindow(); return false;">Printer Friendly Version</a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="printDiv1">
+        <div style="margin-top:0px;">
+            <table style="width:100%;page-break-inside:auto;">
+                <tr>
+                    <td valign="top" align="left" style="padding-top:15px;">
+                        <font style="font-size:20px;font-weight:bold;">Choose Love, Inc.</font><br>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="sectionHeader">
+            Purpose
+            <hr>
+        </div>
+        <div class="paragraphText" style="text-align:justify;">We elevate the voices and visibility of refugees and
+            galvanize public support for agile community organizations providing vital support to refugees and displaced
+            people along migration routes globally.</div>
+        <div class="sectionHeader">
+            Filing Information
+            <hr>
+        </div>
+        <div class="paragraphText">
+            <table>
+                <tr>
+                    <td class="infoText">Filing Number:</td>
+                    <td>100035718</td>
+                </tr>
+                <tr>
+                    <td class="infoText">Filing Status:</td>
+                    <td>Current - Registered</td>
+                </tr>
+                <tr>
+                    <td class="infoText">Initial Date Filed:</td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="infoText">Expiration Date:</td>
+                    <td>11/15/2025</td>
+                </tr>
+            </table>
+        </div>
+        <div class="sectionHeader">
+            Address
+            <hr>
+        </div>
+        <div class="paragraphText">40 W 37th St Rm 1000,<br>New York, NY 10018</div>
+        <div class="sectionHeader">
+            Contact Information
+            <hr>
+        </div>
+        <div class="paragraphText">
+            <table>
+                <tr>
+                    <td class="infoText">Registered Name:</td>
+                    <td>Choose Love, Inc.</td>
+                </tr>
+                <tr>
+                    <td class="infoText">Business Phone:</td>
+                    <td>1-212-271-0142</td>
+                </tr>
+                <tr>
+                    <td class="infoText">Web Address:</td>
+                    <td><a target="_blank"
+                            href="&#xA;                    https://www.us.choose.love">www.us.choose.love</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="sectionHeader" style="font-size:20px;font-weight:bold;margin-top:40px;">
+            Financial Information
+        </div>
+        <div style="margin-top:25px;">
+            <div style="font-weight:bold;page-break-inside:avoid;page-break-after:auto;">
+                Fiscal Year: 12/31/2023<table class="tableOutline">
+                    <tr class="tableHeader">
+                        <td style="width:35%;"> </td>
+                        <td class="infoText" style="width:28%;">Amount:</td>
+                        <td class="infoText">Percent:</td>
+                    </tr>
+                    <tr style="background-color:#E7EAEC;">
+                        <td>Total Revenue</td>
+                        <td>
+                            $ 15,914,922.00</td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>Total Expenses</td>
+                        <td>
+                            $ 13,324,607.00</td>
+                        <td> </td>
+                    </tr>
+                    <tr style="background-color:#E7EAEC;">
+                        <td>Program Services Expenses</td>
+                        <td>
+                            $ 12,910,284.00</td>
+                        <td>97%</td>
+                    </tr>
+                    <tr>
+                        <td>Fund Raising Expenses</td>
+                        <td>
+                            $ 107,243.00</td>
+                        <td>1%</td>
+                    </tr>
+                    <tr style="background-color:#E7EAEC;">
+                        <td>Administrative Expenses</td>
+                        <td>
+                            $ 307,080.00</td>
+                        <td>2%</td>
+                    </tr>
+                    <tr>
+                        <td>Other Expenses</td>
+                        <td>
+                            $ 0.00
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="margin-top:15px;"></div>
+            <div style="font-weight:bold;page-break-inside:avoid;page-break-after:auto;">
+                Fiscal Year: 12/31/2022<table class="tableOutline">
+                    <tr class="tableHeader">
+                        <td style="width:35%;"> </td>
+                        <td class="infoText" style="width:28%;">Amount:</td>
+                        <td class="infoText">Percent:</td>
+                    </tr>
+                    <tr style="background-color:#E7EAEC;">
+                        <td>Total Revenue</td>
+                        <td>
+                            $ 15,602,395.00</td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>Total Expenses</td>
+                        <td>
+                            $ 15,643,531.00</td>
+                        <td> </td>
+                    </tr>
+                    <tr style="background-color:#E7EAEC;">
+                        <td>Program Services Expenses</td>
+                        <td>
+                            $ 15,269,770.00</td>
+                        <td>98%</td>
+                    </tr>
+                    <tr>
+                        <td>Fund Raising Expenses</td>
+                        <td>
+                            $ 96,652.00</td>
+                        <td>1%</td>
+                    </tr>
+                    <tr style="background-color:#E7EAEC;">
+                        <td>Administrative Expenses</td>
+                        <td>
+                            $ 277,109.00</td>
+                        <td>2%</td>
+                    </tr>
+                    <tr>
+                        <td>Other Expenses</td>
+                        <td>
+                            $ 0.00
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="margin-top:15px;"></div>
+            <div style="font-weight:bold;page-break-inside:avoid;page-break-after:auto;">
+                Fiscal Year: 12/31/2021<table class="tableOutline">
+                    <tr class="tableHeader">
+                        <td style="width:35%;"> </td>
+                        <td class="infoText" style="width:28%;">Amount:</td>
+                        <td class="infoText">Percent:</td>
+                    </tr>
+                    <tr style="background-color:#E7EAEC;">
+                        <td>Total Revenue</td>
+                        <td>
+                            $ 6,512,043.00</td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>Total Expenses</td>
+                        <td>
+                            $ 6,525,373.00</td>
+                        <td> </td>
+                    </tr>
+                    <tr style="background-color:#E7EAEC;">
+                        <td>Program Services Expenses</td>
+                        <td>
+                            $ 6,351,983.00</td>
+                        <td>97%</td>
+                    </tr>
+                    <tr>
+                        <td>Fund Raising Expenses</td>
+                        <td>
+                            $ 21,992.00</td>
+                        <td>0%</td>
+                    </tr>
+                    <tr style="background-color:#E7EAEC;">
+                        <td>Administrative Expenses</td>
+                        <td>
+                            $ 151,398.00</td>
+                        <td>2%</td>
+                    </tr>
+                    <tr>
+                        <td>Other Expenses</td>
+                        <td>
+                            $ 0.00
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="margin-top:15px;"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script id="f5_cspm">(function () {
+        var f5_cspm = {
+            f5_p: 'CMJBJHIELLNJCHNIBBLPCKBLIJPHGPIDFGHPPEDBBKJKNNDEGDNKLGOIGJDEBDBFOMFBDAIOAAHIHEBAEMAAHGFBAALKAEOHBPODFFIPALJNIMIECNKHODNPJDEKHFMJ', setCharAt: function (str, index, chr) { if (index > str.length - 1) return str; return str.substr(0, index) + chr + str.substr(index + 1); }, get_byte: function (str, i) { var s = (i / 16) | 0; i = (i & 15); s = s * 32; return ((str.charCodeAt(i + 16 + s) - 65) << 4) | (str.charCodeAt(i + s) - 65); }, set_byte: function (str, i, b) { var s = (i / 16) | 0; i = (i & 15); s = s * 32; str = f5_cspm.setCharAt(str, (i + 16 + s), String.fromCharCode((b >> 4) + 65)); str = f5_cspm.setCharAt(str, (i + s), String.fromCharCode((b & 15) + 65)); return str; }, set_latency: function (str, latency) { latency = latency & 0xffff; str = f5_cspm.set_byte(str, 40, (latency >> 8)); str = f5_cspm.set_byte(str, 41, (latency & 0xff)); str = f5_cspm.set_byte(str, 35, 2); return str; }, wait_perf_data: function () {
+                try {
+                    var wp = window.performance.timing; if (wp.loadEventEnd > 0) {
+                        var res = wp.loadEventEnd - wp.navigationStart; if (res < 60001) { var cookie_val = f5_cspm.set_latency(f5_cspm.f5_p, res); window.document.cookie = 'f5avr0572798141aaaaaaaaaaaaaaaa_cspm_=' + encodeURIComponent(cookie_val) + ';path=/;' + ''; }
+                        return;
+                    }
+                }
+                catch (err) { return; }
+                setTimeout(f5_cspm.wait_perf_data, 100); return;
+            }, go: function () {
+                var chunk = window.document.cookie.split(/\s*;\s*/); for (var i = 0; i < chunk.length; ++i) {
+                    var pair = chunk[i].split(/\s*=\s*/); if (pair[0] == 'f5_cspm' && pair[1] == '1234') { var d = new Date(); d.setTime(d.getTime() - 1000); window.document.cookie = 'f5_cspm=;expires=' + d.toUTCString() + ';path=/;' + ';'; setTimeout(f5_cspm.wait_perf_data, 100); }
+                }
+            }
+        }
+        f5_cspm.go();
+    }());</script>

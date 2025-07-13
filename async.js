@@ -2,7 +2,7 @@ const axios = require("axios");
 const fs = require("fs");
 const cheerio = require("cheerio");
 
-let file = `./files/coloradononprofits.csv`;
+let file = `./files/longandfoster.csv`;
 let data = fs.readFileSync(file, "utf-8");
 
 let cleanEmail = (email) => {
@@ -29,7 +29,7 @@ async function getEmails(site) {
       .trim()
       .replace(/\s/g, "")}\n`;
     if (email.length > 2 && email.length < 40 && email.includes("@")) {
-      fs.appendFile("./files/COLemails", cleanEmail(email), (err) => {
+      fs.appendFile("./files/longandfosterEmails", cleanEmail(email), (err) => {
         if (err) {
           return err;
         }
@@ -47,7 +47,7 @@ async function main() {
 
     const success = await getEmails(site.trim());
     if (!success) {
-      fs.appendFile("./colorado/sitesWOemails-colorado", `${site}\n`, (err) => {
+      fs.appendFile("./files/sitesWOemails-longandfoster", `${site}\n`, (err) => {
         if (err) {
           return err;
         }
