@@ -26,14 +26,5 @@ const sendMail = (target) => {
     }
   });
 };
-let cleanEmail = (emai) => {
-  let tlds = [".org", ".com", ".net", ".cpa", ".pro"];
 
-  for (let i = 0; i < tlds.length; i++) {
-    if (email.includes(tlds[i])) {
-      return `${email.substring(0, email.indexOf(tlds[i]) + 4)}\n`;
-    }
-  }
-};
-
-module.exports = { sendMail, cleanEmail};
+module.exports = { sendMail };
