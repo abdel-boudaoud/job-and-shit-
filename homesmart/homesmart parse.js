@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const file = fs.readFileSync("./homesmart/agents.json", "utf-8", (err) => {
+const file = fs.readFileSync("./homesmart/colorado.json", "utf-8", (err) => {
   if (err) {
     console.log(err);
   }
@@ -9,5 +9,14 @@ const file = fs.readFileSync("./homesmart/agents.json", "utf-8", (err) => {
 let list = JSON.parse(file);
 
 for (agent of list.agents) {
-  console.log(agent.fld_userDetails_Email);
+
+  fs.appendFile(
+    "./homesmart/colorado.csv",
+    `${agent.fld_userDetails_FirstName} ${agent.fld_userDetails_LastName} , ${agent.fld_userDetails_Email}\n`,
+    (err) => {
+      if (err) {
+        return 0;
+      }
+    }
+  );
 }
